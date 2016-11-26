@@ -1,7 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  encapsulation: ViewEncapsulation.Emulated, // Emulated y None
+  encapsulation: ViewEncapsulation.Emulated, // Native and None
   selector: 'app-simple-form',
   template: `<div>
       <input 
